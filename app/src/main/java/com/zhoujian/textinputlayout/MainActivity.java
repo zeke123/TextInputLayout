@@ -18,26 +18,17 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
-
         initView();
     }
 
     private void initView()
     {
-
-
         mText_phone_layout = (TextInputLayout)findViewById(R.id.text_phone_layout);
         mText_password_layout = (TextInputLayout)findViewById(R.id.text_password_layout);
 
         mText_phone = (TextInputEditText)findViewById(R.id.text_phone);
         mText_password = (TextInputEditText)findViewById(R.id.text_password);
         mLogin = (Button)findViewById(R.id.login);
-
-
-
-
-
 
     }
 }
