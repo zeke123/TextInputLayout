@@ -15,6 +15,7 @@ public class MainActivity extends AppCompatActivity
     private TextInputLayout mText_phone_layout;
     private TextInputLayout mText_password_layout;
 
+
     @Override
     protected void onCreate(Bundle savedInstanceState)
     {
