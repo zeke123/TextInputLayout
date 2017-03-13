@@ -30,6 +30,7 @@ public class MainActivity extends AppCompatActivity
 
         mText_phone = (TextInputEditText)findViewById(R.id.text_phone);
         mText_password = (TextInputEditText)findViewById(R.id.text_password);
+
         mLogin = (Button)findViewById(R.id.login);
 
     }
